@@ -1,0 +1,12 @@
+.ImageCollection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 35px;
+  > img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    flex: 1;
+  }
+}

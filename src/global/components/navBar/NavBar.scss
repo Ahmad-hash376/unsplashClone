@@ -1,0 +1,42 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  justify-content: space-between;
+  padding: 10px 20px;
+  user-select: none;
+  // background-color: grey;
+  > img {
+    width: 35px;
+  }
+  > form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 1px solid #edededed;
+    border-radius: 25px;
+    padding: 8px 16px;
+    gap: 1em;
+    > input {
+      outline: none;
+      border: none;
+      flex: 1;
+      height: 100%;
+    }
+  }
+}
+
+.tabBar {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  padding: 0 20px;
+  color: #767676;
+  > hr {
+    height: 22px;
+    width: 2px;
+    margin: 0;
+    background-color: #b4b4b4ed;
+    border: none;
+  }
+}
